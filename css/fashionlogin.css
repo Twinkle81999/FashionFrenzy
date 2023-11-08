@@ -59,3 +59,81 @@ body{
     top: 4rem;
 
 }
+
+@media only screen and (max-width:707px) and (min-width:510px)
+{
+    .main-block{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+    width: 200px;
+    background-color: rgb(218, 18, 218);
+    border-radius: 5px;
+    position: relative;
+    left: 5rem;
+    top: 2rem;
+    }
+    #h1tag{
+        position: relative;
+        left: 4.6rem;
+        color: aliceblue;
+        font-size: 18px;
+    }
+    #h2tag{
+        position: relative;
+        left: 3rem;
+        bottom: 20px;
+        font-size: 16px;
+        
+    }
+    #FN{
+       
+        padding-left: 2rem;
+        font-size: 12px;
+        position: relative;
+        bottom: 1.6rem;
+    }
+    #fn2{
+        width: 95px;
+        font-size: 10px;
+        position: relative;
+        right: 0rem;
+        bottom: 1.5rem;
+    }
+    #EA{
+        position: relative;
+        top: 0rem;
+        font-size: 12px;
+       
+    }
+    #Ea2{
+        position: relative;
+        top: 0rem;
+        width: 95px;
+        font-size: 10px;
+    }
+    #Pa{
+        position: relative;
+        top: 1rem;
+        font-size: 12px;
+        right: 0rem;
+    }
+    #Pa2{
+        position: relative;
+        top: 1rem;
+        width: 95px;
+        font-size: 10px;
+    }
+    
+    .buttonClass{
+        background-color: black;
+        /* height: 150px;
+        width: 150px; */
+        color: aliceblue;
+        text-decoration: none;
+        position: relative;
+        top: 1rem;
+        font-size: 13px;
+    
+    }
+}
